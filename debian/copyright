@@ -15,6 +15,10 @@ Files: src/usbstring.c
 Copyright: 2018, Viveris Technologies
 License: GPL-3.0+ and/or LGPL-2.1+
 
+Files: debian/umtprd.conf
+Copyright: 2018, Viveris Technologies
+License: GPL-3.0+ and/or LGPL-2.1+
+
 Files: debian/*
 Copyright: 2018 Jonah Brüchert <jbb@kaidan.im>
 License: GPL-3.0+
