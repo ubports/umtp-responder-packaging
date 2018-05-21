@@ -1,0 +1,13 @@
+[Unit]
+Description=uMTP responder
+
+[Service]
+Type=simple
+ExecStartPre=/usr/bin/umtprd-gadget
+ExecStart=/usr/bin/umtprd
+ExecReload=/bin/kill -USR1 $MAINPID
+#Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+

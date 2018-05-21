@@ -1,0 +1,4 @@
+umtprd					/usr/bin/
+debian/umtprd.service	/lib/systemd/system/
+debian/umtprd.conf		/etc/umtprd/
+debian/umtprd-gadget	/usr/bin/

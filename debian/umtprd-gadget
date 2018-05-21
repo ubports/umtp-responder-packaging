@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#
+# Put custom commands needed to set up the usb gadget here
+#
