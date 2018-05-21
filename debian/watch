@@ -1,0 +1,3 @@
+version=4
+opts=filenamemangle=s/.+\/v?(\d\S+)\.tar\.gz/umtp-respnder-$1\.tar\.gz/ \
+  https://github.com/viveris/uMTP-Responder/tags .*/v?(\d\S+)\.tar\.gz
